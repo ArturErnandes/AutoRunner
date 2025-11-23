@@ -7,8 +7,8 @@ import telebot
 
 TARGET_SCRIPT = "accs_changer.py"
 
-BOT_TOKEN = "8340320734:AAGleBXdFfilknSWHzceRWjXKlq6xkDhOMM"
-USER_ID = 6524917951
+BOT_TOKEN = "___"
+USER_ID = 123
 
 bot = telebot.TeleBot(BOT_TOKEN)
 
