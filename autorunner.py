@@ -22,7 +22,7 @@ def notify_user(text: str):
 
 def run_file(target_script, run_number):
     try:
-        result = subprocess.run(["python", target_script], capture_output=True, text=True)
+        result = subprocess.run(["python", target_script], capture_output=True, text=True, encoding="utf-8-sig")
 
         if result.returncode == 0:
             msg = f"✅ Запуск №{run_number} успешно выполнен."
